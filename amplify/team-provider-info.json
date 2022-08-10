@@ -1,0 +1,59 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-invmngthoughtspawnco-dev-174255-authRole",
+      "UnauthRoleArn": "arn:aws:iam::017683434765:role/amplify-invmngthoughtspawnco-dev-174255-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::017683434765:role/amplify-invmngthoughtspawnco-dev-174255-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-invmngthoughtspawnco-dev-174255-deployment",
+      "UnauthRoleName": "amplify-invmngthoughtspawnco-dev-174255-unauthRole",
+      "StackName": "amplify-invmngthoughtspawnco-dev-174255",
+      "StackId": "arn:aws:cloudformation:us-east-1:017683434765:stack/amplify-invmngthoughtspawnco-dev-174255/f95cdf20-13f2-11ed-9937-0ad8ccc98553",
+      "AmplifyAppId": "denb72j0r9nre"
+    },
+    "categories": {
+      "storage": {
+        "Inventory": {
+          "tableName": "Inventory",
+          "region": "us-east-1",
+          "arn": "arn:aws:dynamodb:us-east-1:017683434765:table/Inventory",
+          "partitionKeyName": "Id",
+          "partitionKeyType": "S"
+        },
+        "CompressedInventoryCatalog": {
+          "tableName": "CompressedInventoryCatalog",
+          "region": "us-east-1",
+          "arn": "arn:aws:dynamodb:us-east-1:017683434765:table/CompressedInventoryCatalog",
+          "partitionKeyName": "UserId",
+          "partitionKeyType": "S"
+        },
+        "Configuration": {
+          "tableName": "Configuration",
+          "region": "us-east-1",
+          "arn": "arn:aws:dynamodb:us-east-1:017683434765:table/Configuration",
+          "partitionKeyName": "Id",
+          "partitionKeyType": "S"
+        },
+        "Preferences": {
+          "tableName": "Preferences",
+          "region": "us-east-1",
+          "arn": "arn:aws:dynamodb:us-east-1:017683434765:table/Preferences",
+          "partitionKeyName": "Id",
+          "partitionKeyType": "S"
+        },
+        "invmngthoughtspawnco7da7deeb": {
+          "bucketName": "elephant-trax-test",
+          "region": "us-east-1"
+        }
+      },
+      "auth": {
+        "invmngthoughtspawncod8389c64": {
+          "userPoolId": "us-east-1_Mju502N9c",
+          "userPoolName": "elephnat trax test",
+          "webClientId": "23kob23o1lctnj22k68ss4o3m8",
+          "nativeClientId": "23kob23o1lctnj22k68ss4o3m8"
+        }
+      }
+    }
+  }
+}
